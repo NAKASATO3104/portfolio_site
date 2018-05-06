@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:64615/index.html -->
+<html data-brackets-id="392" lang="en">
+
+<head data-brackets-id="393">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link data-brackets-id="394" href="sato.png" rel="stylesheet">
+
+    <link data-brackets-id="396" rel="stylesheet" href="./style.css">
+    <title data-brackets-id="397">satoshi POUR JOUER</title>
+    <script data-brackets-id="398" src="jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+
+<body data-brackets-id="399">
+    <header data-brackets-id="400">
+        <div data-brackets-id="401" class="left_box">
+        </div>
+        <main>
+
+        <div data-brackets-id="402" class="right_box">
+            <h1 data-brackets-id="403">My Web Site</h1>
+            <p data-brackets-id="404">pourjouerはフランス語で”遊ぶ”という意味</p>
+            <p data-brackets-id="405">プログラミングはそこそこしている自分と、ネットを最大限に活かす自分</p>
+            <p data-brackets-id="406">2つが織りなす新しい”遊び”をお楽しみください</p>
+        </div>
+    </header>
+
+    <header data-brackets-id="407">
+        <div data-brackets-id="408" class="right_box2 box">
+            <img data-brackets-id="409" src="pexels-photo-117139.jpeg" alt="" width="800" class="">
+        </div>
+
+        <div data-brackets-id="410" class="left_box2">
+            <h1 data-brackets-id="411">好きなこと</h1>
+            <p data-brackets-id="412">ゲーム 主にスプラトゥーン2やモンスト</p>
+            <p data-brackets-id="413">プログラミング ゴルフ 地震についての研究(?)</p>
+        </div>
+    </header>
+
+    <div data-brackets-id="414" class="right_box3 box">
+        <img data-brackets-id="415" src="Satokun.png" alt="" width="800" class="">
+    </div>
+
+    <div data-brackets-id="416" class="left_box3">
+        <h1 data-brackets-id="417">PROFILE</h1>
+        <p data-brackets-id="418">中嶋敏詞</p>
+        <p data-brackets-id="419">Satoshi Nakajima</p>
+        <p data-brackets-id="420">小学五年生で「テックキッズ」でプログラミングを始めて今年で四年目</p>
+        <p data-brackets-id="421">前はWebのゲームを作っていて今は「ライフイズテック」でWebDesignコースで</p>
+        <p data-brackets-id="422">自分のオリジナルのWebサイトを作っています。</p>
+        <p data-brackets-id="423">将来はゲームを作るか会社のサイトを作って世界へ発信したいです。</p>
+
+    </div>
+    <script data-brackets-id="424">
+        $(function() {
+            $('.box img').addClass('move');
+            $(window).scroll(function() {
+                $(".box").each(function() {
+                    var imgPos = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > imgPos - windowHeight + windowHeight / 5) {
+                        $(this).find("img").removeClass('move');
+                    } else {
+                        $(this).find("img").addClass('move');
+                    }
+                });
+            });
+        });
+
+    </script>
+
+
+    <div class="__brackets-ld-highlight" style="left: 0px; top: 1087px; width: 720px; height: 23px; z-index: 2000000; margin: 0px; padding: 0px; position: absolute; pointer-events: none; box-shadow: rgb(255, 255, 255) 0px 0px 1px; box-sizing: content-box; border-width: 0px; border-style: none; border-color: rgba(21, 165, 255, 0.85); transform: none; transform-origin: 360px 11.5px 0px; background-color: rgba(0, 162, 255, 0); opacity: 0.6;">
+        <div style="background-color: rgba(21, 165, 255, 0.58); height: 15px; width: 720px; left: 0px; top: -15px; position: absolute; display: block; transform: none;"></div>
+        <div style="background-color: rgba(21, 165, 255, 0.58); width: 0px; height: 53px; top: -15px; right: 0px; position: absolute; display: none; transform: none;"></div>
+        <div style="background-color: rgba(21, 165, 255, 0.58); height: 15px; width: 720px; left: 0px; bottom: -15px; position: absolute; display: block; transform: none;"></div>
+        <div style="background-color: rgba(21, 165, 255, 0.58); width: 0px; height: 53px; top: -15px; left: 0px; position: absolute; display: none; transform: none;"></div>
+        <div style="border-width: 1px; border-style: dashed; border-color: rgba(0, 162, 255, 0.5); height: 0px; width: 720px; left: 0px; top: 0px; position: absolute; display: none; transform: none;"></div>
+        <div style="border-width: 1px; border-style: dashed; border-color: rgba(0, 162, 255, 0.5); width: 0px; height: 23px; top: 0px; right: 0px; position: absolute; display: none; transform: none;"></div>
+        <div style="border-width: 1px; border-style: dashed; border-color: rgba(0, 162, 255, 0.5); height: 0px; width: 720px; left: 0px; bottom: 0px; position: absolute; display: none; transform: none;"></div>
+        <div style="border-width: 1px; border-style: dashed; border-color: rgba(0, 162, 255, 0.5); width: 0px; height: 23px; top: 0px; left: 0px; position: absolute; display: none; transform: none;"></div>
+    </div>
+</body>
+
+</html>

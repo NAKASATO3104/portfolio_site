@@ -1,0 +1,102 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: White;
+}
+
+head {}
+
+header {
+    overflow: hidden;
+}
+
+.left_box {
+    float: left;
+    width: 50%;
+    height: 700px;
+    background-image: url(sato.png);
+    background-position: center;
+}
+
+.right_box {
+    float: left;
+    width: 50%;
+}
+
+.right_box h1 {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.right_box p {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+.right_box2 {
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+
+.left_box2 h1 {
+    text-align: center;
+    margin-top: 180px;
+    color: White;
+}
+
+.left_box2 p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.left_box2 {
+    float: left;
+    width: 50%;
+    height: 534px;
+    background-color: #1c1c1c;
+}
+
+.right_box3 {
+    float: right;
+    width: 50%;
+    height: 86px;
+}
+
+.left_box3 h1 {
+    text-align: left;
+    margin-top: 180px;
+    color: black;
+}
+
+.left_box3 p {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.left_box3 {
+    float: left;
+    width: 50%;
+    height: 86px;
+    background-color: white;
+}
+
+/*ココから右*/
+
+.box img {
+    text-align: right;
+    -webkit-transition: all 2s;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+}
+
+.box img.move {
+    -webkit-transform: translate(100px, 0);
+    opacity: 0;
+}
+
