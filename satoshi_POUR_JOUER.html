@@ -8,7 +8,38 @@
 
     <link data-brackets-id="396" rel="stylesheet" href="./style.css">
     <title data-brackets-id="397">satoshi POUR JOUER</title>
-    <script data-brackets-id="398" src="jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <style>
+        .right_box {
+            opacity: 0;
+            transition: .7s;
+        }
+
+        .right_box.show {
+            opacity: 1;
+        }
+    </style>
+    <style>
+        .left_box2 {
+            opacity: 0;
+            transition: .7s;
+        }
+
+        .left_box2.show {
+            opacity: 1;
+        }
+    </style>
+    <style>
+        .left_box3 {
+            opacity: 0;
+            transition: .7s;
+        }
+
+        .left_box3.show {
+            opacity: 1;
+        }
+    </style>
 </head>
 
 
@@ -17,13 +48,14 @@
     <header data-brackets-id="400">
         <div data-brackets-id="401" class="left_box">
         </div>
-
         <div data-brackets-id="402" class="right_box">
             <h1 data-brackets-id="403">My Web Site</h1>
             <p data-brackets-id="404">pourjouerはフランス語で”遊ぶ”という意味</p>
             <p data-brackets-id="405">プログラミングはそこそこしている自分と、ネットを最大限に活かす自分</p>
             <p data-brackets-id="406">2つが織りなす新しい”遊び”をお楽しみください</p>
         </div>
+        
+
     </header>
 
     <header data-brackets-id="407">
@@ -36,6 +68,7 @@
             <p data-brackets-id="412">ゲーム 主にスプラトゥーン2やモンスト</p>
             <p data-brackets-id="413">プログラミング ゴルフ 地震についての研究(?)</p>
         </div>
+
     </header>
 
     <div data-brackets-id="414" class="right_box3 box">
@@ -43,6 +76,7 @@
     </div>
 
     <div data-brackets-id="416" class="left_box3">
+       
         <h1 data-brackets-id="417">PROFILE</h1>
         <p data-brackets-id="418">中嶋敏詞</p>
         <p data-brackets-id="419">Satoshi Nakajima</p>
@@ -68,7 +102,6 @@
                 });
             });
         });
-
     </script>
 
 
@@ -83,5 +116,4 @@
         <div style="border-width: 1px; border-style: dashed; border-color: rgba(0, 162, 255, 0.5); width: 0px; height: 23px; top: 0px; left: 0px; position: absolute; display: none; transform: none;"></div>
     </div>
 </body>
-
 </html>

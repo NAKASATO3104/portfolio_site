@@ -70,20 +70,21 @@ header {
 .left_box3 h1 {
     text-align: left;
     margin-top: 180px;
-    color: black;
+    color: orange;
 }
 
 .left_box3 p {
     text-align: center;
     font-size: 15px;
-    color: black;
+    font-weight: 200;
+    color: orangered;
 }
 
 .left_box3 {
     float: left;
     width: 50%;
-    height: 86px;
-    background-color: white;
+    height: 600px;
+    background-color: blue;
 }
 
 /*ココから右*/
@@ -99,4 +100,5 @@ header {
     -webkit-transform: translate(100px, 0);
     opacity: 0;
 }
+
 
