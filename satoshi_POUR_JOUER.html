@@ -17,9 +17,21 @@
         }
 
         .right_box.show {
-            opacity: 1;
+            opacity: 3;
         }
     </style>
+    
+     <style>
+        .left_box {
+            opacity: 0;
+            transition: .7s;
+        }
+
+        .left_box.show {
+            opacity: 3;
+        }
+    </style>
+    
     <style>
         .left_box2 {
             opacity: 0;
@@ -86,22 +98,24 @@
         <p data-brackets-id="423">将来はゲームを作るか会社のサイトを作って世界へ発信したいです。</p>
 
     </div>
+    
+    <div data-brackets-id="414" class="right_box4 box">
+        <img data-brackets-id="415" src="%E5%9C%B0%E9%9C%87%E8%A8%88.jpg" alt="" width="730" class="">
+    </div>
+
+    <div data-brackets-id="416" class="left_box4">
+       
+        <h1 data-brackets-id="417">PROFILE</h1>
+        <p data-brackets-id="418">中嶋敏詞</p>
+        <p data-brackets-id="419">Satoshi Nakajima</p>
+        <p data-brackets-id="420">小学五年生で「テックキッズ」でプログラミングを始めて今年で四年目</p>
+        <p data-brackets-id="421">前はWebのゲームを作っていて今は「ライフイズテック」でWebDesignコースで</p>
+        <p data-brackets-id="422">自分のオリジナルのWebサイトを作っています。</p>
+        <p data-brackets-id="423">将来はゲームを作るか会社のサイトを作って世界へ発信したいです。</p>
+
+    </div>
+    
     <script data-brackets-id="424">
-        $(function() {
-            $('.box img').addClass('move');
-            $(window).scroll(function() {
-                $(".box").each(function() {
-                    var imgPos = $(this).offset().top;
-                    var scroll = $(window).scrollTop();
-                    var windowHeight = $(window).height();
-                    if (scroll > imgPos - windowHeight + windowHeight / 5) {
-                        $(this).find("img").removeClass('move');
-                    } else {
-                        $(this).find("img").addClass('move');
-                    }
-                });
-            });
-        });
     </script>
 
 
