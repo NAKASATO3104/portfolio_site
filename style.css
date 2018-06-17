@@ -10,6 +10,11 @@ header {
     overflow: hidden;
 }
 
+.content {
+    overflow: hidden;
+    clear: left;
+}
+
 .left_box {
     float: left;
     width: 50%;
@@ -68,7 +73,7 @@ header {
 }
 
 .left_box3 h1 {
-    text-align: left;
+    text-align: center;
     margin-top: 180px;
     color: #FF4000;
 }
@@ -81,6 +86,56 @@ header {
 }
 
 .left_box3 {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #A9E2F3;
+}
+
+/*.left_box4 {
+    background-color: pink
+}
+
+.left_box4 h1 {
+    text-align: center;
+    margin-top: 400px;
+    color: green;
+    background-color: pink
+}
+
+.left_box4 p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    color: springgreen;
+}
+
+.right_box4 {
+    float: right;
+    width: 50%;
+    height: 86px;
+}
+*/
+.right_box4 {
+    float: right;
+    width: 50%;
+    height: 86px;
+}
+
+.left_box4 h1 {
+    text-align: center;
+    margin-top: 180px;
+    color: blue;
+}
+
+.left_box4 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4B8A08;
+}
+
+.left_box4 {
     float: left;
     width: 50%;
     height: 600px;
