@@ -1,7 +1,7 @@
 $(function () {
     $(window).on('scroll', function () {
         var scroll_top = $(window).scrollTop();
-        if (scroll_top > 0.1) {
+        if (scroll_top > -10) {
             $('.right_box').addClass('show');
         } else {
             $('.right_box').removeClass('show');
@@ -12,7 +12,7 @@ $(function () {
 $(function () {
     $(window).on('scroll', function () {
         var scroll_top = $(window).scrollTop();
-        if (scroll_top > 0.1) {
+        if (scroll_top > -10) {
             $('.left_box').addClass('show');
         } else {
             $('.left_box').removeClass('show');
@@ -57,3 +57,5 @@ $(function () {
         });
     });
 });
+
+

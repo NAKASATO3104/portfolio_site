@@ -49,7 +49,7 @@ header {
 
 .left_box2 h1 {
     text-align: center;
-    margin-top: 180px;
+    margin-top: 10px;
     color: White;
 }
 
@@ -74,7 +74,7 @@ header {
 
 .left_box3 h1 {
     text-align: center;
-    margin-top: 180px;
+    margin-top: 10px;
     color: #FF4000;
 }
 
@@ -139,7 +139,7 @@ header {
     float: left;
     width: 50%;
     height: 600px;
-    background-color: #A9E2F3;
+    background-color: springgreen;
 }
 
 /*ココから右*/
@@ -155,6 +155,7 @@ header {
     -webkit-transform: translate(0, 0);
     opacity: 1;
 }
+
 
 
 
